@@ -531,7 +531,8 @@ function saveNeedle (e) {
   return false;
 }
 
-let nEditor;
+// eslint-disable-next-line
+var nEditor;
 
 function submitMargin () {
   setMargin();

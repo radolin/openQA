@@ -12,16 +12,58 @@
   },
   "rules": {
     "max-len": [
-      "error",
+      "warn",
       {
         "code": 120
       }
     ],
     "no-unused-vars": [
-      "error",
-      {
-        "varsIgnorePattern": ".*"
-      }
+      "warn"
+    ],
+    "no-undef": [
+      "warn"
+    ],
+    "eqeqeq": [
+      "warn"
+    ],
+    "camelcase": [
+      "warn"
+    ],
+    "no-multi-str": [
+      "warn"
+    ],
+    "no-new": [
+      "warn"
+    ],
+    "node/handle-callback-err": [
+      "warn"
+    ],
+    "no-throw-literal": [
+      "warn"
+    ],
+    "no-use-before-define": [
+      "warn"
+    ],
+    "no-prototype-builtins": [
+      "warn"
+    ],
+    "no-redeclare": [
+      "warn"
+    ],
+    "brace-style": [
+      "warn"
+    ],
+    "new-cap": [
+      "warn"
+    ],
+    "prefer-const": [
+      "warn"
+    ],
+    "array-callback-return": [
+      "warn"
+    ],
+    "no-global-assign": [
+      "warn"
     ]
   }
 }

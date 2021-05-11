@@ -1,4 +1,6 @@
+---
 name: javascript
+# yamllint disable-line rule:truthy
 on: [push, pull_request]
 jobs:
   test:
@@ -19,4 +21,3 @@ jobs:
       run: npm i
     - name: npm run lint
       run: npm run lint
-
