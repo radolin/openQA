@@ -238,7 +238,8 @@ If the same variable is set with a + prefix in multiple places, the same precede
 order described above will apply to those settings.
 
 Note that the `WORKER_CLASS` variable is not overridden in the way described above.
-Instead multiple occurrences are combined.
+Instead multiple occurrences are combined. Also the `BACKEND` variable is always taken from
+from the machine definition and can't be overriden.
 
 
 == Use of the web interface
